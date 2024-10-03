@@ -1,0 +1,17 @@
+@import "./src/mixins/mixins.scss";
+
+.app {
+  @include centeredContent;
+  justify-content: start;
+  padding-block: 50px;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+
+  @media (max-width: 1000px) {
+    padding-block: 30px;
+    row-gap: 15px;
+  }
+}

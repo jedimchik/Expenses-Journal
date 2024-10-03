@@ -1,0 +1,12 @@
+@mixin centeredContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(226, 226, 226);
+}
+
+@mixin softBorders {
+  border: none;
+  border-radius: 20px;
+}
